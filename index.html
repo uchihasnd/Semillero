@@ -15,66 +15,68 @@
   <body>
     <div class="table-container">
       <!-- Table Contacts -->
-      <table>
-        <thead>
-          <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Email</th>
-            <th scope="col">Phone number</th>
+      <table aria-label="Contact table" class="table-contacts">
+        <thead class="table-header">
+          <tr class="table-row">
+            <th scope="col" class="table-header-cell" id="Name">Name</th>
+            <th scope="col" class="table-header-cell" id="Email">Email</th>
+            <th scope="col" class="table-header-cell" id="Phone number">Phone number</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <th>Brenda</th>
-            <td>bautista.brenda.2000@gmail.com</td>
-            <td>5512345678</td>
+        <tbody class="table-body">
+          <tr class="table-row">
+            <th scope="row" class="table-header-row">Brenda</th>
+            <td class="table-data-cell">bautista.brenda.2000@gmail.com</td>
+            <td class="table-data-cell">5512345678</td>
           </tr>
-          <tr>
-            <th>Dani RL</th>
-            <td>danielramon117@gmail.com</td>
-            <td>5512345678</td>
+          <tr class="table-row">
+            <th scope="row" class="table-header-row">Dani RL</th>
+            <td class="table-data-cell">danielramon117@gmail.com</td>
+            <td class="table-data-cell">5512345678</td>
           </tr>
-          <tr>
-            <th>Jesús</th>
-            <td>j3zuzw@gmail.com</td>
-            <td>5512345678</td>
+          <tr class="table-row">
+            <th scope="row" class="table-header-row">Jesús</th>
+            <td class="table-data-cell">j3zuzw@gmail.com</td>
+            <td class="table-data-cell">5512345678</td>
           </tr>
-          <tr>
-            <th>René</th>
-            <td>rene@gmail.com</td>
-            <td>5512345678</td>
+          <tr class="table-row">
+            <th scope="row" class="table-header-row">René</th>
+            <td class="table-data-cell">rene@gmail.com</td>
+            <td class="table-data-cell">5512345678</td>
           </tr>
-          <tr>
-            <th>Zuri</th>
-            <td>zuri@gmail.com</td>
-            <td>5512345678</td>
+          <tr class="table-row">
+            <th scope="row" class="table-header-row">Zuri</th>
+            <td class="table-data-cell">zuri@gmail.com</td>
+            <td class="table-data-cell">5512345678</td>
           </tr>
-          <tr>
-            <th>Eimi</th>
-            <td>eimi@gmail.com</td>
-            <td>5512345678</td>
+          <tr class="table-row">
+            <th scope="row" class="table-header-row">Eimi</th>
+            <td class="table-data-cell">eimi@gmail.com</td>
+            <td class="table-data-cell">5512345678</td>
           </tr>
-          <tr>
-            <th>Victoria</th>
-            <td>victoria@gmail.com</td>
-            <td>5512345678</td>
+          <tr class="table-row">
+            <th scope="row" class="table-header-row">Victoria</th>
+            <td class="table-data-cell">victoria@gmail.com</td>
+            <td class="table-data-cell">5512345678</td>
           </tr>
-          <tr>
-            <th>Danielle</th>
-            <td>danielle@gmail.com</td>
-            <td>5512345678</td>
+          <tr class="table-row">
+            <th scope="row" class="table-header-row">Danielle</th>
+            <td class="table-data-cell">danielle@gmail.com</td>
+            <td class="table-data-cell">5512345678</td>
           </tr>
         </tbody>
       </table>
       <!-- Loading spinner animation -->
-      <div class="spinner"></div>
+      <div class="spinner" aria-label="Loading spinner"></div>
+
       <!-- Button with hover -->
       <div class="btn">
         <button class="btn-hover">Hover</button>
       </div>
+
       <!-- Button with sideways movement -->
-      <div class="btn-animation">
-        <button class="btn-click">Click</button>
+      <div class="div-btn-animation">
+        <button class="btn-animation">Click</button>
       </div>
     </div>
   </body>
